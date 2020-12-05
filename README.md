@@ -1,1 +1,1 @@
-# learn-cs-in-hard-way
+# to record what I learnt
