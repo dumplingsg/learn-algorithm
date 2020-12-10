@@ -12,7 +12,6 @@ mark = Cat('mark', 2)
 bale = Cat('bale', 3)
 selby = Cat('selby', 1)
 
-
 # 2 Create a function that finds the oldest cat
 
 def find_old_cat(*args):
