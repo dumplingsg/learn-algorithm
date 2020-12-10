@@ -8,9 +8,9 @@ class Cat:
 
 # 1 Instantiate the Cat object with 3 cats
 
-mark = Cat('gege', 2)
-bale = Cat('stinky_gege', 3)
-selby = Cat('xiang_gege', 1)
+mark = Cat('mark', 2)
+bale = Cat('bale', 3)
+selby = Cat('selby', 1)
 
 
 # 2 Create a function that finds the oldest cat
