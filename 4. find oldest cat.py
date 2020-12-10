@@ -21,8 +21,8 @@ def find_old_cat(*args):
             oldest_cat = cat
     return oldest_cat
     
-oldest_cat = find_old_cat(gege, stincky_gege, xiang_gege)
+oldest_cat = find_old_cat(mark, bale, selby)
 
 # 3 Print out: "The oldest cat is x years old.". x will be the oldest cat age by using the function in #2
 
-print(f'the oldest cat is {oldest_cat.age} years old')
+print(f'the oldest cat {oldest_cat.name} is {oldest_cat.age} years old')
