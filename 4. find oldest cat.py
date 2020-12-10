@@ -15,14 +15,14 @@ selby = Cat('xiang_gege', 1)
 
 # 2 Create a function that finds the oldest cat
 
-def find_old_cat_clever(*args):
+def find_old_cat(*args):
     oldest_cat = args[0]
     for cat in args:
         if cat.age > oldest_cat.age:
             oldest_cat = cat
     return oldest_cat
     
-oldest_cat = find_old_cat_clever(gege, stincky_gege, xiang_gege)
+oldest_cat = find_old_cat(gege, stincky_gege, xiang_gege)
 
 # 3 Print out: "The oldest cat is x years old.". x will be the oldest cat age by using the function in #2
 
