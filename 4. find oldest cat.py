@@ -1,3 +1,5 @@
+#OOP!
+
 class Cat:
     species = 'mammal'
 
